@@ -1,0 +1,346 @@
+2024/12/19 17:13:59 Starting cygwin install, version 2.932
+2024/12/19 17:13:59 User has backup/restore rights
+2024/12/19 17:13:59 User has symlink creation right
+2024/12/19 17:13:59 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2024/12/19 17:13:59 Current Directory: C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163
+2024/12/19 17:14:18 source: network install
+2024/12/19 17:14:28 root: C:\cygwin64 system
+2024/12/19 17:14:28 Changing gid to Administrators
+2024/12/19 17:14:30 Selected local directory: C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163
+2024/12/19 17:14:37 net: Preconfig
+2024/12/19 17:14:56 site: https://cygwin.mirrors.hoobly.com/
+2024/12/19 17:15:03 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2024/12/19 17:15:04 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2024/12/19 17:15:04 solving: 38 tasks, update: yes, use test packages: no
+2024/12/19 17:18:05 solving: 79 tasks, update: no, use test packages: no
+2024/12/19 17:18:05 Augmented Transaction List:
+2024/12/19 17:18:05    0 install binutils-src    2.41-3                   
+2024/12/19 17:18:05    1 install libpopt-common  1.19-1                   
+2024/12/19 17:18:05    2 install make-src        4.4-1                    
+2024/12/19 17:18:05    3 install terminfo        6.5+20240427-1           
+2024/12/19 17:18:05    4 install tzdata          2024b-1                  
+2024/12/19 17:18:05    5 install cygwin          3.5.4-1                  
+2024/12/19 17:18:05    6 install libiconv2       1.17-1                   
+2024/12/19 17:18:05    7 install libintl8        0.22.5-1                 
+2024/12/19 17:18:05    8 install libncursesw10   6.5+20240427-1           
+2024/12/19 17:18:05    9 install libreadline7    8.2-2                    
+2024/12/19 17:18:05   10 install bash            5.2.21-1                 
+2024/12/19 17:18:05   11 install libgcc1         12.4.0-3                 
+2024/12/19 17:18:05   12 install crypto-policies 20190218-1               
+2024/12/19 17:18:05   13 install base-cygwin     3.8-2                    
+2024/12/19 17:18:05   14 install libzstd1        1.5.6-1                  
+2024/12/19 17:18:05   15 install zlib0           1.3.1-1                  
+2024/12/19 17:18:05   16 install libunistring5   1.2-1                    
+2024/12/19 17:18:05   17 install libgc1          8.2.8-1                  
+2024/12/19 17:18:05   18 install libffi8         3.4.6-1                  
+2024/12/19 17:18:05   19 install libcrypt2       4.4.20-1                 
+2024/12/19 17:18:05   20 install which           2.20-2                   
+2024/12/19 17:18:05   21 install vim-minimal     9.0.2155-2               
+2024/12/19 17:18:05   22 install tzcode          2024b-1                  
+2024/12/19 17:18:05   23 install sed             4.9-1                    
+2024/12/19 17:18:05   24 install run             1.3.4-2                  
+2024/12/19 17:18:05   25 install ncurses         6.5+20240427-1           
+2024/12/19 17:18:05   26 install mintty          3.7.6-1                  
+2024/12/19 17:18:05   27 install login           1.13-1                   
+2024/12/19 17:18:05   28 install libuuid1        2.39.3-2                 
+2024/12/19 17:18:05   29 install libtasn1_6      4.14-1                   
+2024/12/19 17:18:05   30 install libstdc++6      12.4.0-3                 
+2024/12/19 17:18:05   31 install libsmartcols1   2.39.3-2                 
+2024/12/19 17:18:05   32 install libpopt0        1.19-1                   
+2024/12/19 17:18:05   33 install libpipeline1    1.5.6-1                  
+2024/12/19 17:18:05   34 install libpcre2_8_0    10.44-1                  
+2024/12/19 17:18:05   35 install libpcre1        8.45-1                   
+2024/12/19 17:18:05   36 install liblzma5        5.6.3-1                  
+2024/12/19 17:18:05   37 install liblz4_1        1.9.4-1                  
+2024/12/19 17:18:05   38 install libgmp10        6.3.0-1                  
+2024/12/19 17:18:05   39 install libgdbm6        1.18.1-1                 
+2024/12/19 17:18:05   40 install libffi6         3.2.1-2                  
+2024/12/19 17:18:05   41 install libbz2_1        1.0.8-1                  
+2024/12/19 17:18:05   42 install libblkid1       2.39.3-2                 
+2024/12/19 17:18:05   43 install libattr1        2.5.1-1.20.g0981a7bfe487 
+2024/12/19 17:18:05   44 install libargp         20230708-2               
+2024/12/19 17:18:05   45 install ipc-utils       1.1-1                    
+2024/12/19 17:18:05   46 install hostname        3.13-1                   
+2024/12/19 17:18:05   47 install gzip            1.13-1                   
+2024/12/19 17:18:05   48 install editrights      1.04-1                   
+2024/12/19 17:18:05   49 install diffutils       3.10-1                   
+2024/12/19 17:18:05   50 install dash            0.5.12-5                 
+2024/12/19 17:18:05   51 install binutils        2.41-3                   
+2024/12/19 17:18:05   52 install alternatives    1.26-1                   
+2024/12/19 17:18:05   53 install libuchardet0    0.0.8-1                  
+2024/12/19 17:18:05   54 install cygutils        1.4.17-1                 
+2024/12/19 17:18:05   55 install grep            3.11-1                   
+2024/12/19 17:18:05   56 install less            643-1                    
+2024/12/19 17:18:05   57 install xz              5.6.3-1                  
+2024/12/19 17:18:05   58 install zstd            1.5.6-1                  
+2024/12/19 17:18:05   59 install libguile3.0_1   3.0.9-3                  
+2024/12/19 17:18:05   60 install libmpfr6        4.2.1-1                  
+2024/12/19 17:18:05   61 install libp11-kit0     0.23.20-1                
+2024/12/19 17:18:05   62 install file            5.44-1                   
+2024/12/19 17:18:05   63 install bzip2           1.0.8-1                  
+2024/12/19 17:18:05   64 install libfdisk1       2.39.3-2                 
+2024/12/19 17:18:05   65 install coreutils       9.0-1                    
+2024/12/19 17:18:05   66 install getent          2.18.90-5                
+2024/12/19 17:18:05   67 install rebase          4.6.6-1                  
+2024/12/19 17:18:05   68 install info            7.1-2                    
+2024/12/19 17:18:05   69 install _autorebase     001091-1                 
+2024/12/19 17:18:05   70 install groff           1.23.0-1                 
+2024/12/19 17:18:05   71 install make            4.4-1                    
+2024/12/19 17:18:05   72 install gawk            5.3.0-1                  
+2024/12/19 17:18:05   73 install p11-kit-trust   0.23.20-1                
+2024/12/19 17:18:05   74 install p11-kit         0.23.20-1                
+2024/12/19 17:18:05   75 install tar             1.35-2                   
+2024/12/19 17:18:05   76 install util-linux      2.39.3-2                 
+2024/12/19 17:18:05   77 install findutils       4.10.0-1                 
+2024/12/19 17:18:05   78 install ca-certificates 2024.2.69_v8.0.401-1     
+2024/12/19 17:18:05   79 install man-db          2.13.0-1                 
+2024/12/19 17:18:05   80 install base-files      4.3-3                    
+2024/12/19 17:18:05   81 install libssl3         3.0.15-1                 
+2024/12/19 17:18:05   82 install libssl1.1       1.1.1w-1                 
+2024/12/19 17:18:05   83 install openssl         3.0.15-1                 
+2024/12/19 17:19:05 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/binutils/binutils-2.41-3-src.tar.zst
+2024/12/19 17:19:05 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2024/12/19 17:19:10 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4-1-src.tar.xz
+2024/12/19 17:19:10 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz
+2024/12/19 17:19:11 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/tzdata/tzdata-2024b-1.tar.xz
+2024/12/19 17:19:15 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygwin/cygwin-3.5.4-1.tar.xz
+2024/12/19 17:19:17 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2024/12/19 17:19:17 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gettext/libintl8/libintl8-0.22.5-1.tar.xz
+2024/12/19 17:19:19 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz
+2024/12/19 17:19:19 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2024/12/19 17:19:24 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz
+2024/12/19 17:19:25 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gcc/libgcc1/libgcc1-12.4.0-3.tar.zst
+2024/12/19 17:19:25 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2024/12/19 17:19:25 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2024/12/19 17:19:26 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.6-1.tar.zst
+2024/12/19 17:19:27 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zlib/zlib0/zlib0-1.3.1-1.tar.zst
+2024/12/19 17:19:28 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libunistring/libunistring5/libunistring5-1.2-1.tar.xz
+2024/12/19 17:19:29 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libgc/libgc1/libgc1-8.2.8-1.tar.xz
+2024/12/19 17:19:29 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libffi/libffi8/libffi8-3.4.6-1.tar.xz
+2024/12/19 17:19:30 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2024/12/19 17:19:30 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2024/12/19 17:19:32 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.0.2155-2.tar.xz
+2024/12/19 17:19:33 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/tzcode/tzcode-2024b-1.tar.xz
+2024/12/19 17:19:34 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2024/12/19 17:19:34 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2024/12/19 17:19:37 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz
+2024/12/19 17:19:39 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/mintty/mintty-3.7.6-1.tar.xz
+2024/12/19 17:19:39 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/login/login-1.13-1.tar.xz
+2024/12/19 17:19:40 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.39.3-2.tar.xz
+2024/12/19 17:19:40 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2024/12/19 17:19:42 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-12.4.0-3.tar.zst
+2024/12/19 17:19:42 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.39.3-2.tar.xz
+2024/12/19 17:19:42 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2024/12/19 17:19:43 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2024/12/19 17:19:44 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.44-1.tar.zst
+2024/12/19 17:19:44 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+2024/12/19 17:19:45 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.6.3-1.tar.zst
+2024/12/19 17:19:45 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2024/12/19 17:19:46 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+2024/12/19 17:19:46 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2024/12/19 17:19:46 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2024/12/19 17:19:47 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2024/12/19 17:19:47 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.39.3-2.tar.xz
+2024/12/19 17:19:48 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+2024/12/19 17:19:48 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz
+2024/12/19 17:19:48 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2024/12/19 17:19:49 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2024/12/19 17:19:49 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+2024/12/19 17:19:50 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2024/12/19 17:19:51 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz
+2024/12/19 17:19:51 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz
+2024/12/19 17:20:17 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/binutils/binutils-2.41-3.tar.zst
+2024/12/19 17:20:18 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/alternatives/alternatives-1.26-1.tar.xz
+2024/12/19 17:20:19 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+2024/12/19 17:20:19 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2024/12/19 17:20:21 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/grep/grep-3.11-1.tar.xz
+2024/12/19 17:20:21 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/less/less-643-1.tar.xz
+2024/12/19 17:20:23 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/xz/xz-5.6.3-1.tar.zst
+2024/12/19 17:20:24 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zstd/zstd-1.5.6-1.tar.zst
+2024/12/19 17:20:43 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/guile3.0/libguile3.0_1/libguile3.0_1-3.0.9-3.tar.xz
+2024/12/19 17:20:44 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+2024/12/19 17:20:45 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2024/12/19 17:20:48 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/file/file-5.44-1.tar.xz
+2024/12/19 17:20:48 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2024/12/19 17:20:49 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.39.3-2.tar.xz
+2024/12/19 17:20:56 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2024/12/19 17:20:56 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2024/12/19 17:20:57 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+2024/12/19 17:20:59 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/texinfo/info/info-7.1-2.tar.zst
+2024/12/19 17:20:59 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2024/12/19 17:21:15 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst
+2024/12/19 17:21:16 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4-1.tar.xz
+2024/12/19 17:21:17 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gawk/gawk-5.3.0-1.tar.xz
+2024/12/19 17:21:17 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2024/12/19 17:21:18 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2024/12/19 17:21:19 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/tar/tar-1.35-2.tar.zst
+2024/12/19 17:21:21 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/util-linux-2.39.3-2.tar.xz
+2024/12/19 17:21:22 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/findutils/findutils-4.10.0-1.tar.xz
+2024/12/19 17:21:23 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/ca-certificates/ca-certificates-2024.2.69_v8.0.401-1.tar.zst
+2024/12/19 17:21:25 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/man-db/man-db-2.13.0-1.tar.zst
+2024/12/19 17:21:25 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2024/12/19 17:21:28 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/libssl3/libssl3-3.0.15-1.tar.zst
+2024/12/19 17:21:30 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst
+2024/12/19 17:21:32 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/openssl-3.0.15-1.tar.zst
+2024/12/19 17:21:32 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2024/12/19 17:21:32 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2024/12/19 17:21:32 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz
+2024/12/19 17:21:32 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/tzdata/tzdata-2024b-1.tar.xz
+2024/12/19 17:21:34 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygwin/cygwin-3.5.4-1.tar.xz
+2024/12/19 17:21:34 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2024/12/19 17:21:34 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gettext/libintl8/libintl8-0.22.5-1.tar.xz
+2024/12/19 17:21:34 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz
+2024/12/19 17:21:34 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2024/12/19 17:21:35 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz
+2024/12/19 17:21:35 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gcc/libgcc1/libgcc1-12.4.0-3.tar.zst
+2024/12/19 17:21:35 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.6-1.tar.zst
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zlib/zlib0/zlib0-1.3.1-1.tar.zst
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libunistring/libunistring5/libunistring5-1.2-1.tar.xz
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libgc/libgc1/libgc1-8.2.8-1.tar.xz
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libffi/libffi8/libffi8-3.4.6-1.tar.xz
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.0.2155-2.tar.xz
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/tzcode/tzcode-2024b-1.tar.xz
+2024/12/19 17:21:36 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/mintty/mintty-3.7.6-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/login/login-1.13-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.39.3-2.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-12.4.0-3.tar.zst
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.39.3-2.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.44-1.tar.zst
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.6.3-1.tar.zst
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.39.3-2.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2024/12/19 17:21:37 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+2024/12/19 17:21:38 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2024/12/19 17:21:38 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz
+2024/12/19 17:21:38 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz
+2024/12/19 17:21:38 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/binutils/binutils-2.41-3.tar.zst
+2024/12/19 17:21:39 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/alternatives/alternatives-1.26-1.tar.xz
+2024/12/19 17:21:39 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+2024/12/19 17:21:39 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2024/12/19 17:21:39 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/grep/grep-3.11-1.tar.xz
+2024/12/19 17:21:40 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/less/less-643-1.tar.xz
+2024/12/19 17:21:40 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/xz/xz-5.6.3-1.tar.zst
+2024/12/19 17:21:40 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zstd/zstd-1.5.6-1.tar.zst
+2024/12/19 17:21:40 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/guile3.0/libguile3.0_1/libguile3.0_1-3.0.9-3.tar.xz
+2024/12/19 17:21:44 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+2024/12/19 17:21:44 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2024/12/19 17:21:44 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/file/file-5.44-1.tar.xz
+2024/12/19 17:21:44 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2024/12/19 17:21:44 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.39.3-2.tar.xz
+2024/12/19 17:21:44 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2024/12/19 17:21:46 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2024/12/19 17:21:46 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+2024/12/19 17:21:46 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/texinfo/info/info-7.1-2.tar.zst
+2024/12/19 17:21:46 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2024/12/19 17:21:46 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst
+2024/12/19 17:21:48 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4-1.tar.xz
+2024/12/19 17:21:48 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gawk/gawk-5.3.0-1.tar.xz
+2024/12/19 17:21:49 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2024/12/19 17:21:49 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2024/12/19 17:21:49 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/tar/tar-1.35-2.tar.zst
+2024/12/19 17:21:49 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/util-linux-2.39.3-2.tar.xz
+2024/12/19 17:21:50 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/findutils/findutils-4.10.0-1.tar.xz
+2024/12/19 17:21:50 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/ca-certificates/ca-certificates-2024.2.69_v8.0.401-1.tar.zst
+2024/12/19 17:21:50 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/man-db/man-db-2.13.0-1.tar.zst
+2024/12/19 17:21:51 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2024/12/19 17:21:51 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/libssl3/libssl3-3.0.15-1.tar.zst
+2024/12/19 17:21:51 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst
+2024/12/19 17:21:52 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/openssl-3.0.15-1.tar.zst
+2024/12/19 17:21:52 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/binutils/binutils-2.41-3-src.tar.zst
+2024/12/19 17:21:52 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4-1-src.tar.xz
+2024/12/19 17:21:52 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2024/12/19 17:21:59 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2024/12/19 17:22:03 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2024/12/19 17:22:03 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2024/12/19 17:22:03 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2024/12/19 17:22:04 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2024/12/19 17:22:05 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/p11-kit.sh"
+2024/12/19 17:22:06 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2024/12/19 17:22:35 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/crypto-policies.sh"
+2024/12/19 17:22:38 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2024/12/19 17:22:38 can't run /etc/postinstall/openssl.sh: No such file
+2024/12/19 17:22:38 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2024/12/19 17:22:39 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2024/12/19 17:22:39 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2024/12/19 17:22:55 note: Installation Complete
+2024/12/19 17:22:55 Ending cygwin install
+2024/12/19 18:11:46 Starting cygwin install, version 2.932
+2024/12/19 18:11:46 User has backup/restore rights
+2024/12/19 18:11:46 User has symlink creation right
+2024/12/19 18:11:46 Current Directory: C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163
+2024/12/19 18:11:52 source: network install
+2024/12/19 18:11:58 root: C:\cygwin64 system
+2024/12/19 18:11:58 Changing gid to Administrators
+2024/12/19 18:11:59 Selected local directory: C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163
+2024/12/19 18:12:03 net: Preconfig
+2024/12/19 18:12:10 site: https://cygwin.mirrors.hoobly.com/
+2024/12/19 18:12:14 solving: 0 tasks, update: yes, use test packages: no
+2024/12/19 18:14:02 solving: 4 tasks, update: no, use test packages: no
+2024/12/19 18:14:02 Augmented Transaction List:
+2024/12/19 18:14:02    0 install binutils-src 2.41-3 
+2024/12/19 18:14:02    1 install make-src     4.4-1  
+2024/12/19 18:14:02    2   erase binutils     2.41-3 
+2024/12/19 18:14:02    3 install binutils     2.41-3 
+2024/12/19 18:14:02    4   erase make         4.4-1  
+2024/12/19 18:14:02    5 install make         4.4-1  
+2024/12/19 18:14:12 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2024/12/19 18:14:12 Uninstalling binutils
+2024/12/19 18:14:12 Uninstalling make
+2024/12/19 18:14:12 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/binutils/binutils-2.41-3.tar.zst
+2024/12/19 18:14:12 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4-1.tar.xz
+2024/12/19 18:14:13 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/binutils/binutils-2.41-3-src.tar.zst
+2024/12/19 18:14:13 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4-1-src.tar.xz
+2024/12/19 18:14:13 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2024/12/19 18:14:19 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2024/12/19 18:14:20 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2024/12/19 18:14:27 note: Installation Complete
+2024/12/19 18:14:27 Ending cygwin install
+2024/12/19 18:15:28 Starting cygwin install, version 2.932
+2024/12/19 18:15:28 User has backup/restore rights
+2024/12/19 18:15:28 User has symlink creation right
+2024/12/19 18:15:28 Current Directory: C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163
+2024/12/19 18:16:48 source: network install
+2024/12/19 18:16:49 root: C:\cygwin64 system
+2024/12/19 18:16:49 Changing gid to Administrators
+2024/12/19 18:16:52 Selected local directory: C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163
+2024/12/19 18:16:54 net: Preconfig
+2024/12/19 18:17:13 site: https://cygwin.mirror.constant.com/
+2024/12/19 18:17:17 mbox yesno: This setup.ini is older than the one you used last time you installed cygwin.  Proceed anyway?
+2024/12/19 18:17:23 solving: 0 tasks, update: yes, use test packages: no
+2024/12/19 18:17:58 solving: 2 tasks, update: no, use test packages: no
+2024/12/19 18:17:58 Augmented Transaction List:
+2024/12/19 18:17:58    0 install binutils 2.43.1-1 
+2024/12/19 18:17:58    1   erase binutils 2.41-3   
+2024/12/19 18:17:58    2 install make     4.4.1-2  
+2024/12/19 18:17:58    3   erase make     4.4-1    
+2024/12/19 18:18:03 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.43.1-1.tar.zst
+2024/12/19 18:18:03 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+2024/12/19 18:18:03 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2024/12/19 18:18:03 Uninstalling binutils
+2024/12/19 18:18:03 Uninstalling make
+2024/12/19 18:18:03 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.43.1-1.tar.zst
+2024/12/19 18:18:03 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+2024/12/19 18:18:03 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2024/12/19 18:18:04 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2024/12/19 18:18:06 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2024/12/19 18:18:10 note: Installation Complete
+2024/12/19 18:18:10 Ending cygwin install

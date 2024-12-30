@@ -1,0 +1,990 @@
+2024/12/19 18:15:28 Starting cygwin install, version 2.932
+2024/12/19 18:15:28 User has backup/restore rights
+2024/12/19 18:15:28 User has symlink creation right
+2024/12/19 18:15:28 Current Directory: C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163
+Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2024/12/19 18:16:48 source: network install
+2024/12/19 18:16:49 root: C:\cygwin64 system
+2024/12/19 18:16:49 Changing gid to Administrators
+2024/12/19 18:16:52 Selected local directory: C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163
+2024/12/19 18:16:54 net: Preconfig
+Loaded cached mirror list
+User-Agent: default is "Cygwin-Setup/2.932 (Windows NT 10.0.22631;x86_64;0409;SymLinkPriv)"
+Request for URL https://cygwin.com/mirrors.lst satisfied from cache
+Fetched URL: https://cygwin.com/mirrors.lst
+2024/12/19 18:17:13 site: https://cygwin.mirror.constant.com/
+Fetched URL: https://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+Fetched URL: https://cygwin.mirror.constant.com/x86_64/setup.zst
+signature: sig_type 0, pk_alg 1, hash_alg 8
+signature: tried key cygwin, returned 0x00000000 Success
+2024/12/19 18:17:17 mbox yesno: This setup.ini is older than the one you used last time you installed cygwin.  Proceed anyway?
+.ini setup_version is 2.932, our setup_version is 2.932
+INSTALLED.DB version 3
+2024/12/19 18:17:23 solving: 0 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: number of solvables: 54699, memory used: 2991 K
+libsolv: number of ids: 28146 + 54624
+libsolv: string memory used: 109 K array + 479 K data,  rel memory used: 640 K array
+libsolv: string hash memory: 256 K, rel hash memory : 512 K
+libsolv: provide ids: 11868
+libsolv: provide space needed: 41261 + 109248
+libsolv: shrunk whatprovidesdata from 41261 to 40831
+libsolv: shrunk whatprovidesauxdata from 41261 to 29390
+libsolv: whatprovides memory used: 327 K id array, 586 K data
+libsolv: whatprovidesaux memory used: 109 K id array, 114 K data
+libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
+libsolv: lazywhatprovidesq size: 0 entries
+libsolv: createwhatprovides took 16 ms
+libsolv: obsoletes data: 1 entries
+libsolv: added 1721 pkg rules for installed solvables
+libsolv: added 35 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 342 of 27305 installable solvables considered for solving
+libsolv: pruned rules from 1757 to 1757
+libsolv:   binary: 739
+libsolv:   normal: 1017, 9050 literals
+libsolv: pkg rule memory used: 41 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1756 pkg rules, 2 * 84 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 45 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 16 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   upgrade   binutils-2.43.1-1.any
+libsolv:   (obsoletes
+libsolv:  binutils-2.41-3.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   make-4.4.1-2.any
+libsolv:   (obsoletes
+libsolv:  make-4.4-1.any
+libsolv: )
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.22631.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 2
+libsolv: edges: 0, edge space: 0
+libsolv: edge creation took 0 ms
+libsolv: cycles broken: 0
+libsolv: cycle breaking took 0 ms
+libsolv: invedge space: 4
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 2 upgraded packages:
+libsolv:   - binutils-2.41-3.any -> binutils-2.43.1-1.any
+libsolv:   - make-4.4-1.any -> make-4.4.1-2.any
+libsolv: 
+2024/12/19 18:17:58 solving: 2 tasks, update: no, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 342 of 27305 installable solvables considered for solving
+libsolv: pkg rule memory used: 41 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1756 pkg rules, 2 * 84 update rules, 2 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 45 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 0 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   upgrade   binutils-2.43.1-1.any
+libsolv:   (obsoletes
+libsolv:  binutils-2.41-3.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   make-4.4.1-2.any
+libsolv:   (obsoletes
+libsolv:  make-4.4-1.any
+libsolv: )
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.22631.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 2
+libsolv: edges: 0, edge space: 0
+libsolv: edge creation took 0 ms
+libsolv: cycles broken: 0
+libsolv: cycle breaking took 0 ms
+libsolv: invedge space: 4
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 2 upgraded packages:
+libsolv:   - binutils-2.41-3.any -> binutils-2.43.1-1.any
+libsolv:   - make-4.4-1.any -> make-4.4.1-2.any
+libsolv: 
+2024/12/19 18:17:58 Augmented Transaction List:
+2024/12/19 18:17:58    0 install binutils 2.43.1-1 
+2024/12/19 18:17:58    1   erase binutils 2.41-3   
+2024/12/19 18:17:58    2 install make     4.4.1-2  
+2024/12/19 18:17:58    3   erase make     4.4-1    
+get_url_to_file https://cygwin.mirror.constant.com/x86_64/release/binutils/binutils-2.43.1-1.tar.zst C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.43.1-1.tar.zst.tmp
+Checking SHA512 for file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.43.1-1.tar.zst
+SHA512 verified OK: file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.43.1-1.tar.zst 786f9a6cb61582a221e522f679668002453ad179bd7310d3fed286fd790f754b42e171491fcb7904e873dd00ffcbcec5a8ac51d66d76a410fa4fcf03f8832d3f
+2024/12/19 18:18:03 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.43.1-1.tar.zst
+get_url_to_file https://cygwin.mirror.constant.com/x86_64/release/make/make-4.4.1-2.tar.xz C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+SHA512 verified OK: file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz 9a89a0f4ceadf5c2d0390029d16274fbed0190d2410ad6beb76e39b7153f38d0d1169ad0abf57c96929e6ab0523a0a76c345868e9ae46f9cd3d708d23f6fa3e6
+2024/12/19 18:18:03 Downloaded C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+2024/12/19 18:18:03 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+Running preremove script for binutils
+Running preremove script for make
+2024/12/19 18:18:03 Uninstalling binutils
+unlink C:\cygwin64\bin/addr2line.exe
+unlink C:\cygwin64\bin/ar.exe
+unlink C:\cygwin64\bin/as.exe
+unlink C:\cygwin64\bin/c++filt.exe
+unlink C:\cygwin64\bin/dlltool.exe
+unlink C:\cygwin64\bin/dllwrap.exe
+unlink C:\cygwin64\bin/elfedit.exe
+unlink C:\cygwin64\bin/gprof.exe
+unlink C:\cygwin64\bin/ld.bfd.exe
+unlink C:\cygwin64\bin/ld.exe
+unlink C:\cygwin64\bin/nm.exe
+unlink C:\cygwin64\bin/objcopy.exe
+unlink C:\cygwin64\bin/objdump.exe
+unlink C:\cygwin64\bin/ranlib.exe
+unlink C:\cygwin64\bin/readelf.exe
+unlink C:\cygwin64\bin/size.exe
+unlink C:\cygwin64\bin/strings.exe
+unlink C:\cygwin64\bin/strip.exe
+unlink C:\cygwin64\bin/windmc.exe
+unlink C:\cygwin64\bin/windres.exe
+unlink C:\cygwin64/usr/include/ansidecl.h
+unlink C:\cygwin64/usr/include/bfd.h
+unlink C:\cygwin64/usr/include/bfdlink.h
+unlink C:\cygwin64/usr/include/ctf-api.h
+unlink C:\cygwin64/usr/include/ctf.h
+unlink C:\cygwin64/usr/include/diagnostics.h
+unlink C:\cygwin64/usr/include/dis-asm.h
+unlink C:\cygwin64/usr/include/libiberty/ansidecl.h
+unlink C:\cygwin64/usr/include/libiberty/demangle.h
+unlink C:\cygwin64/usr/include/libiberty/dyn-string.h
+unlink C:\cygwin64/usr/include/libiberty/fibheap.h
+unlink C:\cygwin64/usr/include/libiberty/floatformat.h
+unlink C:\cygwin64/usr/include/libiberty/hashtab.h
+unlink C:\cygwin64/usr/include/libiberty/libiberty.h
+unlink C:\cygwin64/usr/include/libiberty/objalloc.h
+unlink C:\cygwin64/usr/include/libiberty/partition.h
+unlink C:\cygwin64/usr/include/libiberty/safe-ctype.h
+unlink C:\cygwin64/usr/include/libiberty/sort.h
+unlink C:\cygwin64/usr/include/libiberty/splay-tree.h
+unlink C:\cygwin64/usr/include/libiberty/timeval-utils.h
+unlink C:\cygwin64/usr/include/plugin-api.h
+unlink C:\cygwin64/usr/include/sframe-api.h
+unlink C:\cygwin64/usr/include/sframe.h
+unlink C:\cygwin64/usr/include/symcat.h
+unlink C:\cygwin64\lib/bfd-plugins/libdep.a
+unlink C:\cygwin64\lib/libbfd.a
+unlink C:\cygwin64\lib/libctf-nobfd.a
+unlink C:\cygwin64\lib/libctf.a
+unlink C:\cygwin64\lib/libiberty.a
+unlink C:\cygwin64\lib/libopcodes.a
+unlink C:\cygwin64\lib/libsframe.a
+unlink C:\cygwin64/usr/share/doc/binutils/ChangeLog
+unlink C:\cygwin64/usr/share/doc/binutils/COPYING
+unlink C:\cygwin64/usr/share/doc/binutils/COPYING.LIB
+unlink C:\cygwin64/usr/share/doc/binutils/MAINTAINERS
+unlink C:\cygwin64/usr/share/doc/binutils/README
+unlink C:\cygwin64/usr/share/info/as.info.gz
+unlink C:\cygwin64/usr/share/info/bfd.info.gz
+unlink C:\cygwin64/usr/share/info/binutils.info.gz
+unlink C:\cygwin64/usr/share/info/ctf-spec.info.gz
+unlink C:\cygwin64/usr/share/info/gprof.info.gz
+unlink C:\cygwin64/usr/share/info/ld.info.gz
+unlink C:\cygwin64/usr/share/info/ldint.info.gz
+unlink C:\cygwin64/usr/share/info/sframe-spec.info.gz
+unlink C:\cygwin64/usr/share/locale/bg/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/bg/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/bg/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/ca/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/da/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/da/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/da/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/da/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/da/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/de/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/de/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/de/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/eo/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/fi/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/fi/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/fi/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/fi/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/fi/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/fi/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/ga/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/ga/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/ga/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/hr/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/hr/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/hu/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/id/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/id/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/id/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/id/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/id/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/id/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/it/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/it/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/it/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/it/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/ja/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/ja/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/ja/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/ja/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/ja/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/ka/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/ka/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/ms/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/nl/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/nl/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/pt/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/pt/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/pt_BR/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/pt_BR/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/pt_BR/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/ro/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/ro/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/ro/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/ro/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/ru/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/ru/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/ru/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/ru/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/ru/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/rw/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/rw/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/rw/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/rw/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/sk/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/sr/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/sr/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/sr/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/sr/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/sr/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/sv/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/sv/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/sv/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/sv/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/sv/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/sv/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/tr/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/tr/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/tr/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/tr/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/tr/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/tr/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/vi/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/vi/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/vi/LC_MESSAGES/gprof.mo
+unlink C:\cygwin64/usr/share/locale/vi/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/vi/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/zh_CN/LC_MESSAGES/bfd.mo
+unlink C:\cygwin64/usr/share/locale/zh_CN/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/zh_CN/LC_MESSAGES/gas.mo
+unlink C:\cygwin64/usr/share/locale/zh_CN/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/locale/zh_CN/LC_MESSAGES/opcodes.mo
+unlink C:\cygwin64/usr/share/locale/zh_TW/LC_MESSAGES/binutils.mo
+unlink C:\cygwin64/usr/share/locale/zh_TW/LC_MESSAGES/ld.mo
+unlink C:\cygwin64/usr/share/man/man1/addr2line.1.gz
+unlink C:\cygwin64/usr/share/man/man1/ar.1.gz
+unlink C:\cygwin64/usr/share/man/man1/as.1.gz
+unlink C:\cygwin64/usr/share/man/man1/c++filt.1.gz
+unlink C:\cygwin64/usr/share/man/man1/dlltool.1.gz
+unlink C:\cygwin64/usr/share/man/man1/elfedit.1.gz
+unlink C:\cygwin64/usr/share/man/man1/gprof.1.gz
+unlink C:\cygwin64/usr/share/man/man1/ld.1.gz
+unlink C:\cygwin64/usr/share/man/man1/nm.1.gz
+unlink C:\cygwin64/usr/share/man/man1/objcopy.1.gz
+unlink C:\cygwin64/usr/share/man/man1/objdump.1.gz
+unlink C:\cygwin64/usr/share/man/man1/ranlib.1.gz
+unlink C:\cygwin64/usr/share/man/man1/readelf.1.gz
+unlink C:\cygwin64/usr/share/man/man1/size.1.gz
+unlink C:\cygwin64/usr/share/man/man1/strings.1.gz
+unlink C:\cygwin64/usr/share/man/man1/strip.1.gz
+unlink C:\cygwin64/usr/share/man/man1/windmc.1.gz
+unlink C:\cygwin64/usr/share/man/man1/windres.1.gz
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/ar.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/as.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/dlltool.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/ld.bfd.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/ld.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/nm.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/objcopy.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/objdump.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/ranlib.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/readelf.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/bin/strip.exe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.x
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xa
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xbn
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xn
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xr
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xu
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.x
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xa
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xbn
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xe
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xn
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xr
+unlink C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xu
+rmdir C:\cygwin64/usr/x86_64-pc-cygwin/lib/ldscripts
+rmdir C:\cygwin64/usr/x86_64-pc-cygwin/lib
+rmdir C:\cygwin64/usr/x86_64-pc-cygwin/bin
+rmdir C:\cygwin64/usr/x86_64-pc-cygwin
+rmdir C:\cygwin64/usr/share/doc/binutils
+rmdir C:\cygwin64\lib/bfd-plugins
+rmdir C:\cygwin64/usr/include/libiberty
+2024/12/19 18:18:03 Uninstalling make
+unlink C:\cygwin64\bin/make.exe
+unlink C:\cygwin64/usr/include/gnumake.h
+unlink C:\cygwin64/usr/share/doc/make/AUTHORS
+unlink C:\cygwin64/usr/share/doc/make/ChangeLog
+unlink C:\cygwin64/usr/share/doc/make/COPYING
+unlink C:\cygwin64/usr/share/doc/make/NEWS
+unlink C:\cygwin64/usr/share/doc/make/README
+unlink C:\cygwin64/usr/share/info/make.info-1.gz
+unlink C:\cygwin64/usr/share/info/make.info-2.gz
+unlink C:\cygwin64/usr/share/info/make.info-3.gz
+unlink C:\cygwin64/usr/share/info/make.info.gz
+unlink C:\cygwin64/usr/share/locale/be/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/bg/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/cs/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/da/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/de/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/es/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/fi/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/fr/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/ga/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/gl/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/he/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/hr/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/id/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/it/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/ja/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/ko/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/lt/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/nl/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/pl/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/pt/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/pt_BR/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/ro/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/ru/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/sr/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/sv/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/tr/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/uk/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/vi/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/zh_CN/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/locale/zh_TW/LC_MESSAGES/make.mo
+unlink C:\cygwin64/usr/share/man/man1/make.1.gz
+rmdir C:\cygwin64/usr/share/doc/make
+2024/12/19 18:18:03 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.43.1-1.tar.zst
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/addr2line.exe
+Installing file cygfile:///usr/bin/ar.exe
+Installing file cygfile:///usr/bin/as.exe
+Installing file cygfile:///usr/bin/c++filt.exe
+Installing file cygfile:///usr/bin/dlltool.exe
+Installing file cygfile:///usr/bin/dllwrap.exe
+Installing file cygfile:///usr/bin/elfedit.exe
+Installing file cygfile:///usr/bin/gprof.exe
+Installing file cygfile:///usr/bin/ld.bfd.exe
+Installing file cygfile:///usr/bin/ld.exe
+io_stream::mklink (cygfile:///usr/bin/ld.exe->cygfile:///usr/bin/ld.bfd.exe)
+Installing file cygfile:///usr/bin/nm.exe
+Installing file cygfile:///usr/bin/objcopy.exe
+Installing file cygfile:///usr/bin/objdump.exe
+Installing file cygfile:///usr/bin/ranlib.exe
+Installing file cygfile:///usr/bin/readelf.exe
+Installing file cygfile:///usr/bin/size.exe
+Installing file cygfile:///usr/bin/strings.exe
+Installing file cygfile:///usr/bin/strip.exe
+Installing file cygfile:///usr/bin/windmc.exe
+Installing file cygfile:///usr/bin/windres.exe
+Installing file cygfile:///usr/include/
+Installing file cygfile:///usr/include/ansidecl.h
+Installing file cygfile:///usr/include/bfd.h
+Installing file cygfile:///usr/include/bfdlink.h
+Installing file cygfile:///usr/include/ctf-api.h
+Installing file cygfile:///usr/include/ctf.h
+Installing file cygfile:///usr/include/diagnostics.h
+Installing file cygfile:///usr/include/dis-asm.h
+Installing file cygfile:///usr/include/libiberty/
+Installing file cygfile:///usr/include/libiberty/ansidecl.h
+Installing file cygfile:///usr/include/libiberty/demangle.h
+Installing file cygfile:///usr/include/libiberty/dyn-string.h
+Installing file cygfile:///usr/include/libiberty/fibheap.h
+Installing file cygfile:///usr/include/libiberty/floatformat.h
+Installing file cygfile:///usr/include/libiberty/hashtab.h
+Installing file cygfile:///usr/include/libiberty/libiberty.h
+Installing file cygfile:///usr/include/libiberty/objalloc.h
+Installing file cygfile:///usr/include/libiberty/partition.h
+Installing file cygfile:///usr/include/libiberty/safe-ctype.h
+Installing file cygfile:///usr/include/libiberty/sort.h
+Installing file cygfile:///usr/include/libiberty/splay-tree.h
+Installing file cygfile:///usr/include/libiberty/timeval-utils.h
+Installing file cygfile:///usr/include/plugin-api.h
+Installing file cygfile:///usr/include/sframe-api.h
+Installing file cygfile:///usr/include/sframe.h
+Installing file cygfile:///usr/include/symcat.h
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/lib/bfd-plugins/
+Installing file cygfile:///usr/lib/bfd-plugins/libdep.a
+Installing file cygfile:///usr/lib/libbfd.a
+Installing file cygfile:///usr/lib/libctf-nobfd.a
+Installing file cygfile:///usr/lib/libctf.a
+Installing file cygfile:///usr/lib/libiberty.a
+Installing file cygfile:///usr/lib/libopcodes.a
+Installing file cygfile:///usr/lib/libsframe.a
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/binutils/
+Installing file cygfile:///usr/share/doc/binutils/ChangeLog
+Installing file cygfile:///usr/share/doc/binutils/COPYING
+Installing file cygfile:///usr/share/doc/binutils/COPYING.LIB
+Installing file cygfile:///usr/share/doc/binutils/MAINTAINERS
+Installing file cygfile:///usr/share/doc/binutils/README
+Installing file cygfile:///usr/share/info/
+Installing file cygfile:///usr/share/info/as.info.gz
+Installing file cygfile:///usr/share/info/bfd.info.gz
+Installing file cygfile:///usr/share/info/binutils.info.gz
+Installing file cygfile:///usr/share/info/ctf-spec.info.gz
+Installing file cygfile:///usr/share/info/gprof.info.gz
+Installing file cygfile:///usr/share/info/ld.info.gz
+Installing file cygfile:///usr/share/info/ldint.info.gz
+Installing file cygfile:///usr/share/info/sframe-spec.info.gz
+Installing file cygfile:///usr/share/locale/
+Installing file cygfile:///usr/share/locale/bg/
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/ca/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/da/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/de/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/eo/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/es/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/fi/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/fr/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/ga/
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/hr/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/hu/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/id/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/it/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/ja/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/ka/
+Installing file cygfile:///usr/share/locale/ka/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ka/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/ka/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/ka/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/ms/
+Installing file cygfile:///usr/share/locale/ms/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ms/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/nl/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/pt/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/pt_BR/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/ro/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/ru/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/rw/
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/sk/
+Installing file cygfile:///usr/share/locale/sk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sk/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/sr/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/sv/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/tr/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/uk/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/vi/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/gprof.mo
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/zh_CN/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/bfd.mo
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/gas.mo
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/opcodes.mo
+Installing file cygfile:///usr/share/locale/zh_TW/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/binutils.mo
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/ld.mo
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/addr2line.1.gz
+Installing file cygfile:///usr/share/man/man1/ar.1.gz
+Installing file cygfile:///usr/share/man/man1/as.1.gz
+Installing file cygfile:///usr/share/man/man1/c++filt.1.gz
+Installing file cygfile:///usr/share/man/man1/dlltool.1.gz
+Installing file cygfile:///usr/share/man/man1/elfedit.1.gz
+Installing file cygfile:///usr/share/man/man1/gprof.1.gz
+Installing file cygfile:///usr/share/man/man1/ld.1.gz
+Installing file cygfile:///usr/share/man/man1/nm.1.gz
+Installing file cygfile:///usr/share/man/man1/objcopy.1.gz
+Installing file cygfile:///usr/share/man/man1/objdump.1.gz
+Installing file cygfile:///usr/share/man/man1/ranlib.1.gz
+Installing file cygfile:///usr/share/man/man1/readelf.1.gz
+Installing file cygfile:///usr/share/man/man1/size.1.gz
+Installing file cygfile:///usr/share/man/man1/strings.1.gz
+Installing file cygfile:///usr/share/man/man1/strip.1.gz
+Installing file cygfile:///usr/share/man/man1/windmc.1.gz
+Installing file cygfile:///usr/share/man/man1/windres.1.gz
+Installing file cygfile:///usr/x86_64-pc-cygwin/
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/ar.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/ar.exe->cygfile:///usr/bin/ar.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/as.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/as.exe->cygfile:///usr/bin/as.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/dlltool.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/dlltool.exe->cygfile:///usr/bin/dlltool.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/ld.bfd.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/ld.bfd.exe->cygfile:///usr/bin/ld.bfd.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/ld.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/ld.exe->cygfile:///usr/bin/ld.bfd.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/nm.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/nm.exe->cygfile:///usr/bin/nm.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/objcopy.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/objcopy.exe->cygfile:///usr/bin/objcopy.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/objdump.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/objdump.exe->cygfile:///usr/bin/objdump.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/ranlib.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/ranlib.exe->cygfile:///usr/bin/ranlib.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/readelf.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/readelf.exe->cygfile:///usr/bin/readelf.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/bin/strip.exe
+io_stream::mklink (cygfile:///usr/x86_64-pc-cygwin/bin/strip.exe->cygfile:///usr/bin/strip.exe)
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.x
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xa
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xbn
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xe
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xer
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xn
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xr
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pe.xu
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.x
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xa
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xbn
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xe
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xer
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xn
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xr
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/i386pep.xu
+Installing file cygfile:///usr/x86_64-pc-cygwin/lib/ldscripts/stamp
+2024/12/19 18:18:03 Extracting from file://C:\Users\palak\AppData\Local\Temp\scoped_dir5700_132749163/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/make.exe
+Installing file cygfile:///usr/include/
+Installing file cygfile:///usr/include/gnumake.h
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/make/
+Installing file cygfile:///usr/share/doc/make/AUTHORS
+Installing file cygfile:///usr/share/doc/make/ChangeLog
+Installing file cygfile:///usr/share/doc/make/COPYING
+Installing file cygfile:///usr/share/doc/make/NEWS
+Installing file cygfile:///usr/share/doc/make/README
+Installing file cygfile:///usr/share/info/
+Installing file cygfile:///usr/share/info/make.info-1.gz
+Installing file cygfile:///usr/share/info/make.info-2.gz
+Installing file cygfile:///usr/share/info/make.info-3.gz
+Installing file cygfile:///usr/share/info/make.info.gz
+Installing file cygfile:///usr/share/locale/
+Installing file cygfile:///usr/share/locale/be/
+Installing file cygfile:///usr/share/locale/be/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/be/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/bg/
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/cs/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/da/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/de/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/es/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/fi/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/fr/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/ga/
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/gl/
+Installing file cygfile:///usr/share/locale/gl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/gl/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/he/
+Installing file cygfile:///usr/share/locale/he/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/he/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/hr/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/id/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/it/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/ja/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/ko/
+Installing file cygfile:///usr/share/locale/ko/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ko/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/lt/
+Installing file cygfile:///usr/share/locale/lt/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/lt/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/nl/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/pl/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/pt/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/pt_BR/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/ro/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/ru/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/sr/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/sv/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/tr/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/uk/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/vi/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/zh_CN/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/locale/zh_TW/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/make.mo
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/make.1.gz
+Visited: 82 nodes out of 11736 while creating dependency order.
+Dependency order of packages: terminfo zlib0 libzstd1 libgcc1 libncursesw10 libreadline7 libintl8 libiconv2 bash cygwin dash _autorebase alternatives base-cygwin libattr1 libgmp10 tzdata tzcode coreutils findutils sed base-files binutils libbz2_1 bzip2 libffi6 libp11-kit0 p11-kit libtasn1_6 p11-kit-trust ca-certificates crypto-policies libpopt-common libpopt0 cygutils diffutils editrights liblzma5 file libmpfr6 gawk libargp getent libpcre2_8_0 grep libstdc++6 libuchardet0 groff gzip hostname info ipc-utils libpcre1 less libblkid1 libcrypt2 libuuid1 libfdisk1 libffi8 libgc1 libgdbm6 libunistring5 libguile3.0_1 liblz4_1 libpipeline1 libsmartcols1 libssl1.1 libssl3 login make util-linux man-db mintty ncurses openssl rebase run xz zstd tar vim-minimal which 
+2024/12/19 18:18:03 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+removing /var/cache/rebase/rebase_dyn
+creating empty /var/cache/rebase/rebase_dyn
+Updating rebase information for dynamic language modules/libraries /var/cache/rebase/rebase_dyn.
+removing /var/cache/rebase/rebase_dyn_exe
+creating empty /var/cache/rebase/rebase_dyn_exe
+Updating rebase information for user-defined executables /var/cache/rebase/rebase_dyn_exe.
+removing /var/cache/rebase/rebase_pkg
+creating empty /var/cache/rebase/rebase_pkg
+Updating package information in /var/cache/rebase/rebase_pkg.
+  from /etc/setup/alternatives.lst.gz
+  from /etc/setup/base-cygwin.lst.gz
+  from /etc/setup/base-files.lst.gz
+  from /etc/setup/bash.lst.gz
+  from /etc/setup/binutils.lst.gz
+  from /etc/setup/bzip2.lst.gz
+  from /etc/setup/ca-certificates.lst.gz
+  from /etc/setup/coreutils.lst.gz
+  from /etc/setup/crypto-policies.lst.gz
+  from /etc/setup/cygutils.lst.gz
+  from /etc/setup/cygwin.lst.gz
+  from /etc/setup/dash.lst.gz
+  from /etc/setup/diffutils.lst.gz
+  from /etc/setup/editrights.lst.gz
+  from /etc/setup/file.lst.gz
+  from /etc/setup/findutils.lst.gz
+  from /etc/setup/gawk.lst.gz
+  from /etc/setup/getent.lst.gz
+  from /etc/setup/grep.lst.gz
+  from /etc/setup/groff.lst.gz
+  from /etc/setup/gzip.lst.gz
+  from /etc/setup/hostname.lst.gz
+  from /etc/setup/info.lst.gz
+  from /etc/setup/ipc-utils.lst.gz
+  from /etc/setup/less.lst.gz
+  from /etc/setup/libargp.lst.gz
+  from /etc/setup/libattr1.lst.gz
+  from /etc/setup/libblkid1.lst.gz
+  from /etc/setup/libbz2_1.lst.gz
+  from /etc/setup/libcrypt2.lst.gz
+  from /etc/setup/libfdisk1.lst.gz
+  from /etc/setup/libffi6.lst.gz
+  from /etc/setup/libffi8.lst.gz
+  from /etc/setup/libgc1.lst.gz
+  from /etc/setup/libgcc1.lst.gz
+  from /etc/setup/libgdbm6.lst.gz
+  from /etc/setup/libgmp10.lst.gz
+  from /etc/setup/libguile3.0_1.lst.gz
+  from /etc/setup/libiconv2.lst.gz
+  from /etc/setup/libintl8.lst.gz
+  from /etc/setup/liblz4_1.lst.gz
+  from /etc/setup/liblzma5.lst.gz
+  from /etc/setup/libmpfr6.lst.gz
+  from /etc/setup/libncursesw10.lst.gz
+  from /etc/setup/libp11-kit0.lst.gz
+  from /etc/setup/libpcre1.lst.gz
+  from /etc/setup/libpcre2_8_0.lst.gz
+  from /etc/setup/libpipeline1.lst.gz
+  from /etc/setup/libpopt-common.lst.gz
+  from /etc/setup/libpopt0.lst.gz
+  from /etc/setup/libreadline7.lst.gz
+  from /etc/setup/libsmartcols1.lst.gz
+  from /etc/setup/libssl1.1.lst.gz
+  from /etc/setup/libssl3.lst.gz
+  from /etc/setup/libstdc++6.lst.gz
+  from /etc/setup/libtasn1_6.lst.gz
+  from /etc/setup/libuchardet0.lst.gz
+  from /etc/setup/libunistring5.lst.gz
+  from /etc/setup/libuuid1.lst.gz
+  from /etc/setup/libzstd1.lst.gz
+  from /etc/setup/login.lst.gz
+  from /etc/setup/make.lst.gz
+  from /etc/setup/man-db.lst.gz
+  from /etc/setup/mintty.lst.gz
+  from /etc/setup/ncurses.lst.gz
+  from /etc/setup/openssl.lst.gz
+  from /etc/setup/p11-kit-trust.lst.gz
+  from /etc/setup/p11-kit.lst.gz
+  from /etc/setup/rebase.lst.gz
+  from /etc/setup/run.lst.gz
+  from /etc/setup/sed.lst.gz
+  from /etc/setup/tar.lst.gz
+  from /etc/setup/terminfo.lst.gz
+  from /etc/setup/tzcode.lst.gz
+  from /etc/setup/tzdata.lst.gz
+  from /etc/setup/util-linux.lst.gz
+  from /etc/setup/vim-minimal.lst.gz
+  from /etc/setup/which.lst.gz
+  from /etc/setup/xz.lst.gz
+  from /etc/setup/zlib0.lst.gz
+  from /etc/setup/zstd.lst.gz
+  from /etc/setup/_autorebase.lst.gz
+removing /var/cache/rebase/rebase_lst
+creating empty /var/cache/rebase/rebase_lst
+Updating rebase information for installed dynamic objects in /var/cache/rebase/rebase_lst.
+Updating rebase information for installed executables in /var/cache/rebase/rebase_exe.
+Rebasing with list /var/cache/rebase/rebase_all, built from /var/cache/rebase/rebase_dyn /var/cache/rebase/rebase_lst.
+2024/12/19 18:18:04 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+Rebuilding info directory
+install-info: warning: no info dir entry in `/usr/share/info/gawk_api-figure1.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_api-figure2.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_api-figure3.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_array-elements.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_general-program.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_process-flow.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_statist.jpg'
+2024/12/19 18:18:06 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+  ManDB index not available.
+Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+Desktop directory for desktop link: C:\Users\Public\Desktop
+Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs/Cygwin
+make_link C:\ProgramData\Microsoft\Windows\Start Menu\Programs/Cygwin/Cygwin64 Terminal.lnk, Cygwin64 Terminal, C:\cygwin64\bin\mintty
+make_link_2 (C:\cygwin64\bin\mintty, -i /Cygwin-Terminal.ico -, C:\cygwin64\Cygwin-Terminal.ico, C:\ProgramData\Microsoft\Windows\Start Menu\Programs/Cygwin/Cygwin64 Terminal.lnk)
+Desktop directory for desktop link: C:\Users\Public\Desktop
+make_link C:\Users\Public\Desktop/Cygwin64 Terminal.lnk, Cygwin64 Terminal, C:\cygwin64\bin\mintty
+make_link_2 (C:\cygwin64\bin\mintty, -i /Cygwin-Terminal.ico -, C:\cygwin64\Cygwin-Terminal.ico, C:\Users\Public\Desktop/Cygwin64 Terminal.lnk)
+2024/12/19 18:18:10 note: Installation Complete
+2024/12/19 18:18:10 Ending cygwin install
